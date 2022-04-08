@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="uae.png" />
+		<title>Visit Dubai</title>
+	</head>
+	<body>
+		<section class="showcase">
+			<header>
+				<h2 class="logo">Dubai UAE</h2>
+				<div class="toggle"></div>
+			</header>
+			<video src="dubai.mp4" muted loop autoplay></video>
+			<div class="overlay"></div>
+			<div class="text">
+				<h2>We can't wait</h2>
+				<h3>to welcome you to Dubai</h3>
+				<p>
+					Beaches, sunshine, entertainment – Dubai has it all. It's no wonder
+					we've been named Tripadvisor's top destination in the world for 2022.
+					Come see the magic.
+				</p>
+				<a href="#">Explore</a>
+			</div>
+			<ul class="social">
+				<li>
+					<a herf="#"><img src="facebook.png" /></a>
+				</li>
+				<li>
+					<a herf="#"><img src="twitter.png" /></a>
+				</li>
+				<li>
+					<a herf="#"><img src="instagram.png" /></a>
+				</li>
+			</ul>
+		</section>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Destination</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<script>
+			const menuToggle = document.querySelector(".toggle");
+			const showcase = document.querySelector(".showcase");
+
+			menuToggle.addEventListener("click", () => {
+				menuToggle.classList.toggle("active");
+				showcase.classList.toggle("active");
+			});
+		</script>
+	</body>
+</html>
