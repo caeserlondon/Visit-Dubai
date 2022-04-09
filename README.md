@@ -1,6 +1,6 @@
 # Visit-Dubai
 
-a simple landing page to practice my html, css and javascript.
+A simple landing page to practice my HTML, CSS and JavaScript.
 
 been hosted on netlify.
 
