@@ -2,7 +2,7 @@
 
 a simple landing page to practice my html, css and javascript.
 
-been deployed to netlify.
+been hosted on netlify.
 
 
 https://visit-dubai.netlify.app
