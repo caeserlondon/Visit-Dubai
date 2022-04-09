@@ -134,7 +134,7 @@ ul li img {
 }
 .social {
 	position: absolute;
-	bottom: 20px;
+	bottom: 35px;
 	z-index: 5;
 	display: flex;
 	justify-content: center;
