@@ -134,7 +134,7 @@ ul li img {
 }
 .social {
 	position: absolute;
-	bottom: 35px;
+	bottom: 45px;
 	z-index: 5;
 	display: flex;
 	justify-content: center;
@@ -147,7 +147,7 @@ ul li img {
 	display: inline-block;
 	filter: invert(1);
 	cursor: pointer;
-	margin-right: 20px;
+	margin-right: 25px;
 	transition: 0.5s;
 }
 .social li a:hover {
